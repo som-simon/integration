@@ -1,0 +1,19 @@
+# n = 1000000
+    # print('Integrate sin(x) from 0 to pi using {} rectangles:'.format(n))
+    # print('    {}'.format(integrate_with_n(f, a, b, n)))
+
+    # print('Integrate sin(x) from 0 to pi using {} trapezoids:'.format(n))
+    # print('    {}'.format(integrate_with_n_trapz(f, a, b, n)))
+
+
+
+# print('Single integral computed by SciPy quad')
+# print('Example 1-01 quad')
+# print('Integral of 2xe^-x from x=1 to x=5')
+
+# integrand = lambda x : 2 * x * np.exp(-x)
+# a = 1.
+# b = 5.
+
+# result, error = spi.quad(integrand, a, b)
+# print('Result is ', result, 'with error ', error)
