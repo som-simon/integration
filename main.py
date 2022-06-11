@@ -8,6 +8,9 @@ import custom_algorithms as ca
 
 
 def exec(f, start, finish, n, **args):
+    """
+    Plot a function f n elements and calculate integral from start to finish.
+    """
     send = tuple(args.values())
     integral = spi.quad(f, start, finish, args=(send))
 
