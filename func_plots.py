@@ -26,7 +26,7 @@ def plot_func(f, start, finish, n, **args):
 
 
     tmp = (finish - start) / 3
-    
+
     x = np.linspace(start - tmp, finish + tmp, n)
     y = f(x, **args)
     make_title = make_name(f.__name__, args)
@@ -35,7 +35,7 @@ def plot_func(f, start, finish, n, **args):
     font2 = {'family': 'serif', 'size': 10} # use for labels
 
     plt.plot(x, y, color='black')
-    plt.rc('font', **font2) # sets the default font 
+    plt.rc('font', **font2) # sets the default font
     plt.title(f"{make_title}", fontdict=font1)
     plt.suptitle(f"Integral under curve between {start} and {finish}")
     plt.xlabel(f"Integral == {integral[0]}", )

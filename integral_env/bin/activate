@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/home/simon/programming/vscode/calc/integral/integral_env"
+VIRTUAL_ENV="/home/simon/programming/vscode/calc/integral/integration/integral_env"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
